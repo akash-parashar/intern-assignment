@@ -1,0 +1,21 @@
+.call-img{
+    top: 44px;
+left: 310px;
+width: 40px;
+height: 40px;
+background: transparent  0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+opacity: 1;
+}
+.logo{
+    top: 104px;
+    margin-left:auto; 
+    margin-right:auto; 
+left: 150px;
+width: 71px;
+height: 70px;
+background: transparent  0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+opacity: 1;
+
+}

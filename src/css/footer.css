@@ -1,0 +1,13 @@
+.footer{
+    top: 850px;
+
+width: inherit;
+height: 63px;
+/* UI Properties */
+
+box-shadow: inset 8px 4px 4px #00000040;
+mix-blend-mode: normal;
+
+opacity: 1;
+
+}

@@ -1,0 +1,85 @@
+.login{
+    background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+}
+.input{
+    top: 336px;
+left: 61px;
+width: 238px;
+height: 42px;
+background: #1F191966 0% 0% no-repeat padding-box;
+box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+mix-blend-mode: normal;
+opacity: 1;
+}
+.btn-login{
+    top: 501px;
+left: 156px;
+width: 47px;
+height: 20px;
+text-align: center;
+font: normal normal bold 16px/21px Mulish;
+letter-spacing: 0.02px;
+color: #FFFFFF8C;
+opacity: 1;
+top: 492px;
+left: 61px;
+width: 238px;
+height: 42px;
+/* UI Properties */
+background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+mix-blend-mode: normal;
+border: 2px solid #8CFF0026;
+opacity: 1;
+}
+.login {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media only screen and (max-width: 390px) and (max-height: 834px) {
+  /* Center the login form on the screen */
+  .login-form {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  /* Make the login form smaller for smaller screens */
+  .login-form {
+      width: 80%;
+      padding: 20px;
+  }
+  /* Adjust the size and position of the logo for smaller screens */
+  .logo {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 10px;
+      left: 10px;
+  }
+  /* Adjust the size and position of the login button for smaller screens */
+  .btn-login {
+      width: 100%;
+      margin-top: 20px;
+  }
+  /* Adjust the size and position of the sign-up link for smaller screens */
+  .sign-up-link {
+      margin-top: 20px;
+      text-align: center;
+  }
+  .input{
+    margin-right: 50px;
+   
+  }
+}

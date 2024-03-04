@@ -1,0 +1,49 @@
+ <div className="login  h-screen w-screen">
+      <div className="absolute left-[48%] top-[134px]">
+        <img
+          src={Group3}
+          alt=""
+          className="w-[90px] h-[90px] rounded-full  mx-auto"
+        />
+      </div>
+      <div
+        className="absolute top-[45%] left-[44.5%] mx-auto"
+        onSubmit={(e) => e.preventDefault()}
+      >
+        <form action="" className=" flex flex-col ">
+          <input
+            ref={email}
+            type="text"
+            placeholder="    email"
+            className="input rounded-full text-white"
+          />
+          <input
+            ref={password}
+            type="password"
+            placeholder="     password"
+            className="input rounded-full mt-7 text-white"
+          />
+          <p className="text-red-500 font-bold text-lg py-2 ml-6">
+            {errorMessage}
+          </p>
+          <button
+            className="btn-login rounded-full mt-16"
+            onClick={handleButtonClick}
+          >
+            {signIn ? "Login" : "Sign Up"}
+          </button>
+          <a className="text-[#36A546] ml-16 mt-8">forgot password</a>
+          <Link to={"/signup"}>
+          <p
+            className="py-4 cursor-pointer text-[#36A546] ml-16 "
+           
+          >
+            New user Sign in
+          </p>
+
+          </Link>
+        </form>
+      </div>
+
+      <div></div>
+    </div>
